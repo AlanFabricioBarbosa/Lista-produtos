@@ -1,0 +1,27 @@
+@import "./variables";
+@import "./app";
+@import "./form";
+@import "./productList";
+@import "./global";
+
+@media (max-width: 768px) {
+  .form-container {
+    width: 90%;
+    padding: $spacing-unit;
+  }
+
+  .product-manager {
+    width: 100%;
+    padding: $spacing-unit;
+  }
+
+  .product-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
